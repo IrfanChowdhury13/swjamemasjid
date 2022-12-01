@@ -37,27 +37,27 @@ td, tr {
     font-weight: 500;
 }
 /* Nav Section */
-#nav-section {
+#header-nav {
     background: #017101;
 }
-#nav-section .container .row .col-md-12 .navbar .container-fluid a img
+#header-nav .container .row .col-md-12 .navbar .container-fluid a img
 {
     width: 170px;
 }
-#nav-section .container .row .col-md-12 .navbar .navbar-collapse .navbar-nav {
+#header-nav .container .row .col-md-12 .navbar .navbar-collapse .navbar-nav {
     margin-left: 90px;
 }
-#nav-section .container .row .col-md-12 .navbar .navbar-collapse .navbar-nav li a{
+#header-nav .container .row .col-md-12 .navbar .navbar-collapse .navbar-nav li a{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
 }
-#nav-section .container .row .col-md-12 .navbar .navbar-collapse .navbar-nav li a:hover{
+#header-nav .container .row .col-md-12 .navbar .navbar-collapse .navbar-nav li a:hover{
     color:  #FFFFFF6B;
 }
-#nav-section .container .row .col-md-12 .navbar .container-fluid .donate-btn,
-#nav-section .container .mobile-nav .col-sm-3 button 
+#header-nav .container .row .col-md-12 .navbar .container-fluid .donate-btn,
+#header-nav .container .mobile-nav .col-sm-3 button 
 {
     color: #017101;
     border: none;
@@ -66,17 +66,17 @@ td, tr {
     border-radius: 2px;
 }
 /* Mobile Nav Start */
-#nav-section .container .mobile-nav {
+#header-nav .container .mobile-nav {
     display: none;
 }
-#nav-section .container .mobile-nav .col-sm-3 .fa-bars,
-#nav-section .container .mobile-nav .col-sm-3 .fa-xmark
+#header-nav .container .mobile-nav .col-sm-3 .fa-bars,
+#header-nav .container .mobile-nav .col-sm-3 .fa-xmark
 {
     color: white;
     font-size: 24px;
     margin-top: 24px;
 }
-#nav-section .container .mobile-nav .col-sm-3 .fa-xmark {
+#header-nav .container .mobile-nav .col-sm-3 .fa-xmark {
     display: none;
 }
 .navbar-toggler {
@@ -85,7 +85,7 @@ td, tr {
     color: transparent;
 }
 /* Banner Section */
-#banner-section {
+#banner {
     width: 100%;
     height: auto;
     background: url(../images/banner/swjamemasjid-banner.jpg);
@@ -94,7 +94,7 @@ td, tr {
     top: 0;
     left: 0;
 }
-#banner-section .container .row .col-md-6 .ayat-block {
+#banner .container .row .col-md-6 .ayat-block {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: auto;
@@ -106,7 +106,7 @@ td, tr {
     margin-top: 290px;
     margin-bottom: 30px;
 }
-#banner-section .container .row .col-md-6 .prayer-time-block {
+#banner .container .row .col-md-6 .prayer-time-block {
     width: 100%;
     height: auto;
     background-color: #FFFFFFCF;
@@ -118,7 +118,7 @@ td, tr {
     margin-bottom: 30px;
 }
 
-#banner-section .container .row .col-md-6 .prayer-time-block h3 {
+#banner .container .row .col-md-6 .prayer-time-block h3 {
     color: #000;
     font-family: "Roboto",Sans-serif;
     font-size: 24px;
@@ -127,24 +127,24 @@ td, tr {
     margin-top: 20px ;
     
 }
-#banner-section .container .row .col-md-6 .prayer-time-block .table-section-header {
+#banner .container .row .col-md-6 .prayer-time-block .table-section-header {
     border: 1px solid;
     margin-top: 20px;
 }
-#banner-section .container .row .col-md-6 .prayer-time-block .table-section-header p {
+#banner .container .row .col-md-6 .prayer-time-block .table-section-header p {
     font-size: 20px;
     font-family:'Roboto', sans-serif;
     font-weight: 500;
 }
-#banner-section .container .row .col-md-6 .prayer-time-block .table-section-header h3 {
+#banner .container .row .col-md-6 .prayer-time-block .table-section-header h3 {
     font-size: 26px;
     font-family:'Roboto', sans-serif;
     font-weight: 700;
     color: #017101;
 }
 /* Some default css */
-#blog-section .container .row .col-md-12 h2,
-#gallery-section .container .row .col-md-12 h2,
+#blog .container .row .col-md-12 h2,
+#gallery .container .row .col-md-12 h2,
 #contact-us .container .row .col-md-12 h2
 {
     padding-top: 50px;
@@ -156,24 +156,24 @@ td, tr {
     text-align: center;
 }
 /* Blog Start */
-#blog-section .container .row .col-md-4 .card .card-body {
+#blog .container .row .col-md-4 .card .card-body {
     background-color: #E8E8E8;
     text-align: center;
 }
-#blog-section .container .row .col-md-4 .card .card-body .card-title {
+#blog .container .row .col-md-4 .card .card-body .card-title {
     color: #000;
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     font-size: 22px;
     text-align: center;
 }
-#blog-section .container .row .col-md-4 .card .card-body .card-text {
+#blog .container .row .col-md-4 .card .card-body .card-text {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     font-size: 16px;
 }
-#blog-section .container .row .col-md-4 .card .card-body a {
+#blog .container .row .col-md-4 .card .card-body a {
     background-color: #017101;
     color: white;
     margin-bottom: 20px;
@@ -189,13 +189,13 @@ td, tr {
 color:#000;
 }
 /* Gallery Start */
-#gallery-section {
+#gallery {
     background-color: #E8E8E8;
 }
-#gallery-section .container .row .col-md-3 img {
+#gallery .container .row .col-md-3 img {
     height: 400px;
 } 
-#gallery-section {
+#gallery {
     padding-bottom: 50px;
 }
 /* Contact US Start */
@@ -238,38 +238,38 @@ color:#000;
     color: #fff;
 }
 /* Footer Start */
-#footer-section {
+#footer {
     background-color: #017101;
 }
-#footer-section .container .row .col-md-4 img{
+#footer .container .row .col-md-4 img{
     margin-top: 50px;
 }
-#footer-section .container .row .col-md-4 h4 {
+#footer .container .row .col-md-4 h4 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
     margin-top: 30px;
 }
-#footer-section .container .row .col-md-4 ul {
+#footer .container .row .col-md-4 ul {
     margin-left: 120px; 
     list-style: none;
 }
-#footer-section .container .row .col-md-4 ul a {
+#footer .container .row .col-md-4 ul a {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-#footer-section .container .row .col-md-4 ul a:hover {
+#footer .container .row .col-md-4 ul a:hover {
     color:  #FFFFFF6B;
-}#footer-section .container .row .col-md-4 .contact-us-list
+}#footer .container .row .col-md-4 .contact-us-list
 {
     margin-left: 70px;
 }
-#footer-section .container .row .col-md-4 .contact-us-list li {
+#footer .container .row .col-md-4 .contact-us-list li {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: #fff;
 }
-#footer-section .container .row .col-md-4 .contact-us-list li span {
+#footer .container .row .col-md-4 .contact-us-list li span {
     font-weight: 400;
 }
 #copyright-claim .container .row .col-md-12 p {

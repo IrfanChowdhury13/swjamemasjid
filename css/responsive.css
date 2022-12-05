@@ -19,7 +19,6 @@
   #footer .container .row .col-sm-6 .contact-us-list {
     margin-left: 6%;
   }
-
   #blog .container .row .col-md-12 h2,
   #gallery .container .row .col-md-12 h2,
   #contact-us .container .row .col-md-12 h2 {
@@ -37,6 +36,11 @@
   }
   #copyright-claim .container .row .col-md-12 p {
     font-size: 8px;
+  }
+  /* Maktab Page Start */
+  #team-card .container .row .col-md-6 .card
+  {
+    margin: 10px auto;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -140,7 +144,7 @@
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1201px) {
-  #contact-us .container .row .col-md-12 form .col-md-5 textarea {
+  /* #contact-us .container .row .col-md-12 form .col-md-5 textarea {
     width: 490px;
-  }
+  } */
 }

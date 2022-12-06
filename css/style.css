@@ -1,3 +1,7 @@
+body
+{
+    font-family: 'Roboto',
+}
 a {
     text-decoration: none;
 }
@@ -25,7 +29,7 @@ td, tr {
     color: black;
     font-family: 'Roboto', sans-serif;
 }
-#header-top .container .row .header-top-right button {
+#header-top .container .row .header-top-right .member-form {
     background: #017101;
     color: white;
     border: none;
@@ -64,6 +68,7 @@ td, tr {
     font-family: 'Roboto', sans-serif;
     padding: 2px 15px;
     border-radius: 2px;
+    background: white;
 }
 /* Mobile Nav Start */
 #header-nav .container .mobile-nav {
@@ -106,7 +111,9 @@ td, tr {
     margin-top: 290px;
     margin-bottom: 30px;
 }
-#banner .container .row .col-md-6 .prayer-time-block {
+#banner .container .row .col-md-6 .prayer-time-block,
+#single-blog .container .row .col-md-4 .prayer-time-block 
+{
     width: 100%;
     height: auto;
     background-color: #FFFFFFCF;
@@ -117,8 +124,13 @@ td, tr {
     margin-top: 10px;
     margin-bottom: 30px;
 }
-
-#banner .container .row .col-md-6 .prayer-time-block h3 {
+#single-blog .container .row .col-md-4 .prayer-time-block
+{
+    padding: 0;
+    margin-top: 0;
+}
+#banner .container .row .col-md-6 .prayer-time-block h3,
+#single-blog .container .row .col-md-4 .prayer-time-block h3  {
     color: #000;
     font-family: "Roboto",Sans-serif;
     font-size: 24px;
@@ -127,16 +139,25 @@ td, tr {
     margin-top: 20px ;
     
 }
-#banner .container .row .col-md-6 .prayer-time-block .table-section-header {
+#banner .container .row .col-md-6 .prayer-time-block .table-section-header,
+#single-blog .container .row .col-md-4 .prayer-time-block .table-section-header
+{
     border: 1px solid;
     margin-top: 20px;
 }
-#banner .container .row .col-md-6 .prayer-time-block .table-section-header p {
+#single-blog .container .row .col-md-4 .prayer-time-block .table-section-header
+{
+    margin-top: 0px;
+}
+#banner .container .row .col-md-6 .prayer-time-block .table-section-header p,
+#single-blog .container .row .col-md-4 .prayer-time-block .table-section-header p 
+{
     font-size: 20px;
     font-family:'Roboto', sans-serif;
     font-weight: 500;
 }
-#banner .container .row .col-md-6 .prayer-time-block .table-section-header h3 {
+#banner .container .row .col-md-6 .prayer-time-block .table-section-header h3,
+#single-blog .container .row .col-md-4 .prayer-time-block .table-section-header h3 {
     font-size: 26px;
     font-family:'Roboto', sans-serif;
     font-weight: 700;
@@ -293,6 +314,7 @@ color:#000;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;   
+    text-transform: uppercase;
 }
 /* Team Card Start */
 #team-card
@@ -332,4 +354,46 @@ table tbody tr td
 {
     font-family: 'Roboto', sans-serif; 
     font-weight: 300; 
+}
+/* donate us start */
+.custom-tab {
+    background-color: #017101!important;
+    font-family: 'Roboto', sans-serif; 
+    color: white;
+    margin: 10px 30px;
+}
+.custom-tab:hover {
+    color: white;
+}
+#hero-text .container .row .col-md-12 .tab-content .tab-pane h2 {
+    color: black;
+    text-align: start;
+    padding: 20px;
+}
+#hero-text .container .row .col-md-12 .tab-content 
+{
+    padding: 30px;
+    border: 1px solid #017101;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#hero-text .container .row .col-md-12 .tab-content .tab-pane p
+{
+    font-size: 20px;
+}
+#hero-text .container .row .col-md-12 .tab-content .tab-pane p ul li {
+    font-family: 'Roboto',  
+}
+/* single Blog Page */
+#single-blog {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#single-blog .container .row .col-md-8 p
+{
+    margin: 30px 0px;
+}
+#single-blog .container .row .col-md-8 img
+{
+    padding: 30px 0px;
 }

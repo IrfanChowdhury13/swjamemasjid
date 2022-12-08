@@ -11,7 +11,7 @@
     margin-top: 45px;
   }
   .navbar-toggler {
-    margin-left: 25%;
+    margin-left: 10%;
   }
   #header-nav .container .row .col-md-12 .navbar .container-fluid .donate-btn
   {
@@ -29,17 +29,17 @@
     font-size: 24px;
   }
   #contact-us .container .row .col-md-12 form .col-md-5 textarea {
-    width: 387px;
+    width: 300px;
   }
   #footer .container .row .col-md-4 {
     text-align: center;
   }
   #footer .container .row .col-md-4 ul {
-    margin-left: 50px;
+    margin-left: 25px;
     list-style: none;
 }
 #footer .container .row .col-md-4 .contact-us-list {
-  margin-left: 4px;
+  margin-left: -15px;
 }
   #footer .container .row .col-mobile {
     width: 50%;

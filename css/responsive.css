@@ -13,8 +13,7 @@
   .navbar-toggler {
     margin-left: 10%;
   }
-  #header-nav .container .row .col-md-12 .navbar .container-fluid .donate-btn
-  {
+  #header-nav .container .row .col-md-12 .navbar .container-fluid .donate-btn {
     margin: 10px auto;
   }
   #footer .container .row .col-sm-6 .important-links {
@@ -31,26 +30,25 @@
   #contact-us .container .row .col-md-12 form .col-md-5 textarea {
     width: 300px;
   }
-  #footer .container .row .col-md-4 {
+  /* #footer .container .row .col-md-4 {
     text-align: center;
-  }
+  } */
   #footer .container .row .col-md-4 ul {
     margin-left: 25px;
     list-style: none;
-}
-#footer .container .row .col-md-4 .contact-us-list {
-  margin-left: -15px;
-}
+  }
+  #footer .container .row .col-md-4 .contact-us-list {
+    margin-left: -15px;
+  }
   #footer .container .row .col-mobile {
-    width: 50%;
-    text-align: start;
+    display: flex;
+    flex-direction: column;
   }
   #copyright-claim .container .row .col-md-12 p {
     font-size: 8px;
   }
   /* Maktab Page Start */
-  #team-card .container .row .col-md-6 .card
-  {
+  #team-card .container .row .col-md-6 .card {
     margin: 10px auto;
   }
 }
@@ -62,8 +60,7 @@
   .navbar-toggler {
     margin-left: 25%;
   }
-  #header-nav .container .row .col-md-12 .navbar .container-fluid .donate-btn
-  {
+  #header-nav .container .row .col-md-12 .navbar .container-fluid .donate-btn {
     margin: 10px auto;
   }
   #header-top .container .row .header-top-right {
@@ -84,16 +81,16 @@
     margin-left: 0px;
   }
   #footer .container .row .col-mobile {
-    width: 50%;
-    text-align: start;
+    display: flex;
+    flex-direction: column;
   }
   #footer .container .row .col-md-4 ul {
     margin-left: 50px;
     list-style: none;
-}
-#footer .container .row .col-md-4 .contact-us-list {
-  margin-left: 4px;
-}
+  }
+  #footer .container .row .col-md-4 .contact-us-list {
+    margin-left: 4px;
+  }
 }
 /* Large devices (desktops, 992px and up) */
 @media (769px <= width <= 992px) {
@@ -116,8 +113,7 @@
   #banner .container .row .col-md-6 .ayat-block {
     margin-top: 50%;
   }
-  #header-nav .container .row .col-md-12 .navbar .container-fluid .donate-btn
-  {
+  #header-nav .container .row .col-md-12 .navbar .container-fluid .donate-btn {
     margin: 10px auto;
   }
   #header-nav .container .mobile-nav {
